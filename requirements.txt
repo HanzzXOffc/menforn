@@ -2,7 +2,6 @@ python-dotenv
 telegraph==2.2.0
 TgCrypto==1.2.5
 tornado==6.4.1
-py-tgcalls==2.0.6
 rich==13.7.1
 pytz==2024.1
 psutil
@@ -16,7 +15,6 @@ requests
 unidecode
 filetype
 attrify
-uvloop
 pySmartDL
 html2text
 removebg
