@@ -1,6 +1,3 @@
-import uvloop
-
-uvloop.install()
 
 import logging
 import os
@@ -10,7 +7,7 @@ from pyrogram import Client, filters
 from pyrogram.enums import ParseMode 
 from pyrogram.handlers import CallbackQueryHandler, MessageHandler
 from pyrogram.types import Message
-from pytgcalls import PyTgCalls
+# from pytgcalls import PyTgCalls
 from pytgcalls import filters as fl
 from pyromod import listen
 from PyroUbot.config import *
@@ -68,7 +65,7 @@ class Ubot(Client):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.call_py = PyTgCalls(self)
+        # self.call_py = PyTgCalls(self)
 
     def on_message(self, filters=None, group=-1):
         def decorator(func):
